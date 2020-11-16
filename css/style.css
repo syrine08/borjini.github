@@ -1,0 +1,177 @@
+body{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height:1.5em;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.primary-text{
+    color:teal;
+}
+.primary-background{
+    color:teal;
+}
+
+#main-header{
+    border-bottom: 1px solid teal;
+}
+
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none ;
+    color: brown;
+}
+#navbar li.current a, #navbar a:hover{
+    color: teal;
+    border-bottom: 3px solid teal;
+    padding-bottom: 3px;
+}
+
+#showcase{
+    background: url('../image/back.jpg') no-repeat center center;
+    border-bottom: 1px solid teal;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#showcase .row{
+    height: 500px;
+
+}
+#showcase h1{
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#showcase p{
+    color: black;
+    margin: 0;
+}
+
+#showcase .showcase-content{
+    background: darkseagreen;
+    color: white;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.8;
+}
+#features .feature-content{
+    padding: 40px;
+    background:beige;
+}
+
+#features h2{
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#features p{
+    color: darkslategrey;
+    margin: 0;
+    margin-bottom: 40px;
+}
+#features .fa ,.fab,.fas{
+    font-size: 50px;
+    color: teal;
+}
+#info{
+    color: darkslategrey;
+    padding: 40px;
+}
+#info .info-content{
+    padding: 40px;
+    background:beige;
+}
+#info h2{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom:10px ;
+    color: black;
+}
+#info p{
+    list-style: none;
+    padding: 0;
+}
+
+
+#company{
+    background: darkseagreen;
+    color: white;
+    padding: 10px 10px;
+}
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+#company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+#company input[type="text"]{
+    padding: 7px;
+}
+#company button{
+    background: darkslategrey;
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+#mainfooter{
+    background:white ;
+
+}
+
+#page{
+    margin-bottom:40px;
+}
+ /*Media QUeries
+  */
+.contact form{
+    background: darkslategrey;
+    color: white;
+    padding: 20px;
+}
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.contact form textarea{
+    width: 50%;
+    height: 100px;
+}
+.contact form button {
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: teal;
+    color: white;
+}
+.contact form label{
+    text-transform: uppercase;
+}
+@media (max-width: 800px) {
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px) {
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
